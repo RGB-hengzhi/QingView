@@ -1,0 +1,2002 @@
+{
+  "publicationNote": "Public copy: machine-specific project, Qt SDK and user-cache paths have been standardised as ${PROJECT_ROOT}, ${QINGVIEW_QT_ROOT} and ${QINGVIEW_BUILD_ROOT}. Test results, counts, timestamps, system-library paths and hashes are unchanged.",
+  "passed": true,
+  "testedAt": "2026-10-10T12:19:22+08:00",
+  "applicationBundle": "${PROJECT_ROOT}/dist/release/轻看.app",
+  "binaryCount": 20,
+  "dependencyCount": 275,
+  "systemLibraryPolicy": "Apple system frameworks and /usr/lib libraries may reside in the dyld shared cache",
+  "problems": [],
+  "binaries": [
+    {
+      "file": "Contents/Frameworks/QtCore.framework/Versions/A/QtCore",
+      "architectures": [
+        "arm64"
+      ],
+      "sha256": "a3831e2a9a065f49a579a5b468dd5c39a0254c4c7dc425c2fd3ca8e5c8537790",
+      "rpaths": [
+        {
+          "value": "@loader_path/../../../",
+          "resolved": "${PROJECT_ROOT}/dist/release/轻看.app/Contents/Frameworks",
+          "exists": true,
+          "insideBundle": true
+        }
+      ],
+      "dependencies": [
+        {
+          "value": "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/Security.framework/Versions/A/Security",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/Security.framework/Versions/A/Security",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers",
+          "valid": true
+        },
+        {
+          "value": "/usr/lib/libz.1.dylib",
+          "kind": "system",
+          "resolved": "/usr/lib/libz.1.dylib",
+          "valid": true
+        },
+        {
+          "value": "/usr/lib/libc++.1.dylib",
+          "kind": "system",
+          "resolved": "/usr/lib/libc++.1.dylib",
+          "valid": true
+        },
+        {
+          "value": "/usr/lib/libSystem.B.dylib",
+          "kind": "system",
+          "resolved": "/usr/lib/libSystem.B.dylib",
+          "valid": true
+        },
+        {
+          "value": "/usr/lib/libobjc.A.dylib",
+          "kind": "system",
+          "resolved": "/usr/lib/libobjc.A.dylib",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "file": "Contents/Frameworks/QtDBus.framework/Versions/A/QtDBus",
+      "architectures": [
+        "arm64"
+      ],
+      "sha256": "9ca8a680c9da3ee2dbee4ef775a0ce1a1c68e70828d87d63b5a08b23e0c72d9d",
+      "rpaths": [
+        {
+          "value": "@loader_path/../../../",
+          "resolved": "${PROJECT_ROOT}/dist/release/轻看.app/Contents/Frameworks",
+          "exists": true,
+          "insideBundle": true
+        }
+      ],
+      "dependencies": [
+        {
+          "value": "@rpath/QtCore.framework/Versions/A/QtCore",
+          "kind": "bundled",
+          "resolved": "${PROJECT_ROOT}/dist/release/轻看.app/Contents/Frameworks/QtCore.framework/Versions/A/QtCore",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers",
+          "valid": true
+        },
+        {
+          "value": "/usr/lib/libc++.1.dylib",
+          "kind": "system",
+          "resolved": "/usr/lib/libc++.1.dylib",
+          "valid": true
+        },
+        {
+          "value": "/usr/lib/libSystem.B.dylib",
+          "kind": "system",
+          "resolved": "/usr/lib/libSystem.B.dylib",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "file": "Contents/Frameworks/QtGui.framework/Versions/A/QtGui",
+      "architectures": [
+        "arm64"
+      ],
+      "sha256": "9d0ec8b2deb132867dba361d7717b5f6cc23e79d7214e5d3b799de9e1b8e5266",
+      "rpaths": [
+        {
+          "value": "@loader_path/../../../",
+          "resolved": "${PROJECT_ROOT}/dist/release/轻看.app/Contents/Frameworks",
+          "exists": true,
+          "insideBundle": true
+        }
+      ],
+      "dependencies": [
+        {
+          "value": "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/Carbon.framework/Versions/A/Carbon",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/Carbon.framework/Versions/A/Carbon",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/CoreText.framework/Versions/A/CoreText",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/CoreText.framework/Versions/A/CoreText",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/Metal.framework/Versions/A/Metal",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/Metal.framework/Versions/A/Metal",
+          "valid": true
+        },
+        {
+          "value": "@rpath/QtDBus.framework/Versions/A/QtDBus",
+          "kind": "bundled",
+          "resolved": "${PROJECT_ROOT}/dist/release/轻看.app/Contents/Frameworks/QtDBus.framework/Versions/A/QtDBus",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/AGL.framework/Versions/A/AGL",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/AGL.framework/Versions/A/AGL",
+          "valid": true
+        },
+        {
+          "value": "/usr/lib/libz.1.dylib",
+          "kind": "system",
+          "resolved": "/usr/lib/libz.1.dylib",
+          "valid": true
+        },
+        {
+          "value": "@rpath/QtCore.framework/Versions/A/QtCore",
+          "kind": "bundled",
+          "resolved": "${PROJECT_ROOT}/dist/release/轻看.app/Contents/Frameworks/QtCore.framework/Versions/A/QtCore",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers",
+          "valid": true
+        },
+        {
+          "value": "/usr/lib/libc++.1.dylib",
+          "kind": "system",
+          "resolved": "/usr/lib/libc++.1.dylib",
+          "valid": true
+        },
+        {
+          "value": "/usr/lib/libSystem.B.dylib",
+          "kind": "system",
+          "resolved": "/usr/lib/libSystem.B.dylib",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices",
+          "valid": true
+        },
+        {
+          "value": "/usr/lib/libobjc.A.dylib",
+          "kind": "system",
+          "resolved": "/usr/lib/libobjc.A.dylib",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "file": "Contents/Frameworks/QtSvg.framework/Versions/A/QtSvg",
+      "architectures": [
+        "arm64"
+      ],
+      "sha256": "29b041b7b97998c8d1134943ab13d350d4c04166b1fbb608aaa9c3f21c239de0",
+      "rpaths": [
+        {
+          "value": "@loader_path/../../../",
+          "resolved": "${PROJECT_ROOT}/dist/release/轻看.app/Contents/Frameworks",
+          "exists": true,
+          "insideBundle": true
+        }
+      ],
+      "dependencies": [
+        {
+          "value": "@rpath/QtGui.framework/Versions/A/QtGui",
+          "kind": "bundled",
+          "resolved": "${PROJECT_ROOT}/dist/release/轻看.app/Contents/Frameworks/QtGui.framework/Versions/A/QtGui",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/AGL.framework/Versions/A/AGL",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/AGL.framework/Versions/A/AGL",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/Metal.framework/Versions/A/Metal",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/Metal.framework/Versions/A/Metal",
+          "valid": true
+        },
+        {
+          "value": "@rpath/QtCore.framework/Versions/A/QtCore",
+          "kind": "bundled",
+          "resolved": "${PROJECT_ROOT}/dist/release/轻看.app/Contents/Frameworks/QtCore.framework/Versions/A/QtCore",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers",
+          "valid": true
+        },
+        {
+          "value": "/usr/lib/libz.1.dylib",
+          "kind": "system",
+          "resolved": "/usr/lib/libz.1.dylib",
+          "valid": true
+        },
+        {
+          "value": "/usr/lib/libc++.1.dylib",
+          "kind": "system",
+          "resolved": "/usr/lib/libc++.1.dylib",
+          "valid": true
+        },
+        {
+          "value": "/usr/lib/libSystem.B.dylib",
+          "kind": "system",
+          "resolved": "/usr/lib/libSystem.B.dylib",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "file": "Contents/Frameworks/QtWidgets.framework/Versions/A/QtWidgets",
+      "architectures": [
+        "arm64"
+      ],
+      "sha256": "af043daa8f91b66dbb84c13ad2c4dd13e868e3b76bab363708cf393524632500",
+      "rpaths": [
+        {
+          "value": "@loader_path/../../../",
+          "resolved": "${PROJECT_ROOT}/dist/release/轻看.app/Contents/Frameworks",
+          "exists": true,
+          "insideBundle": true
+        }
+      ],
+      "dependencies": [
+        {
+          "value": "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+          "valid": true
+        },
+        {
+          "value": "/usr/lib/libz.1.dylib",
+          "kind": "system",
+          "resolved": "/usr/lib/libz.1.dylib",
+          "valid": true
+        },
+        {
+          "value": "@rpath/QtGui.framework/Versions/A/QtGui",
+          "kind": "bundled",
+          "resolved": "${PROJECT_ROOT}/dist/release/轻看.app/Contents/Frameworks/QtGui.framework/Versions/A/QtGui",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/AGL.framework/Versions/A/AGL",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/AGL.framework/Versions/A/AGL",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/Metal.framework/Versions/A/Metal",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/Metal.framework/Versions/A/Metal",
+          "valid": true
+        },
+        {
+          "value": "@rpath/QtCore.framework/Versions/A/QtCore",
+          "kind": "bundled",
+          "resolved": "${PROJECT_ROOT}/dist/release/轻看.app/Contents/Frameworks/QtCore.framework/Versions/A/QtCore",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers",
+          "valid": true
+        },
+        {
+          "value": "/usr/lib/libc++.1.dylib",
+          "kind": "system",
+          "resolved": "/usr/lib/libc++.1.dylib",
+          "valid": true
+        },
+        {
+          "value": "/usr/lib/libSystem.B.dylib",
+          "kind": "system",
+          "resolved": "/usr/lib/libSystem.B.dylib",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "valid": true
+        },
+        {
+          "value": "/usr/lib/libobjc.A.dylib",
+          "kind": "system",
+          "resolved": "/usr/lib/libobjc.A.dylib",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "file": "Contents/MacOS/QingView",
+      "architectures": [
+        "arm64"
+      ],
+      "sha256": "6334e0f9b6aa2f8ba5d3204faad1bd96a48e48ab4e65e34bd93511b4df9c2fce",
+      "rpaths": [
+        {
+          "value": "@executable_path/../Frameworks",
+          "resolved": "${PROJECT_ROOT}/dist/release/轻看.app/Contents/Frameworks",
+          "exists": true,
+          "insideBundle": true
+        }
+      ],
+      "dependencies": [
+        {
+          "value": "/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa",
+          "valid": true
+        },
+        {
+          "value": "@rpath/QtWidgets.framework/Versions/A/QtWidgets",
+          "kind": "bundled",
+          "resolved": "${PROJECT_ROOT}/dist/release/轻看.app/Contents/Frameworks/QtWidgets.framework/Versions/A/QtWidgets",
+          "valid": true
+        },
+        {
+          "value": "@rpath/QtSvg.framework/Versions/A/QtSvg",
+          "kind": "bundled",
+          "resolved": "${PROJECT_ROOT}/dist/release/轻看.app/Contents/Frameworks/QtSvg.framework/Versions/A/QtSvg",
+          "valid": true
+        },
+        {
+          "value": "@rpath/QtGui.framework/Versions/A/QtGui",
+          "kind": "bundled",
+          "resolved": "${PROJECT_ROOT}/dist/release/轻看.app/Contents/Frameworks/QtGui.framework/Versions/A/QtGui",
+          "valid": true
+        },
+        {
+          "value": "@rpath/QtCore.framework/Versions/A/QtCore",
+          "kind": "bundled",
+          "resolved": "${PROJECT_ROOT}/dist/release/轻看.app/Contents/Frameworks/QtCore.framework/Versions/A/QtCore",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL",
+          "valid": true
+        },
+        {
+          "value": "/usr/lib/libc++.1.dylib",
+          "kind": "system",
+          "resolved": "/usr/lib/libc++.1.dylib",
+          "valid": true
+        },
+        {
+          "value": "/usr/lib/libSystem.B.dylib",
+          "kind": "system",
+          "resolved": "/usr/lib/libSystem.B.dylib",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "valid": true
+        },
+        {
+          "value": "/usr/lib/libobjc.A.dylib",
+          "kind": "system",
+          "resolved": "/usr/lib/libobjc.A.dylib",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "file": "Contents/PlugIns/iconengines/libqsvgicon.dylib",
+      "architectures": [
+        "arm64"
+      ],
+      "sha256": "edfd856b291fb9af13b19778c543f6fe41847b5241981df81f9788b9d54e9bd4",
+      "rpaths": [
+        {
+          "value": "@loader_path/../../lib",
+          "resolved": "${PROJECT_ROOT}/dist/release/轻看.app/Contents/lib",
+          "exists": false,
+          "insideBundle": true
+        }
+      ],
+      "dependencies": [
+        {
+          "value": "@rpath/QtSvg.framework/Versions/A/QtSvg",
+          "kind": "bundled",
+          "resolved": "${PROJECT_ROOT}/dist/release/轻看.app/Contents/Frameworks/QtSvg.framework/Versions/A/QtSvg",
+          "valid": true
+        },
+        {
+          "value": "@rpath/QtGui.framework/Versions/A/QtGui",
+          "kind": "bundled",
+          "resolved": "${PROJECT_ROOT}/dist/release/轻看.app/Contents/Frameworks/QtGui.framework/Versions/A/QtGui",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/AGL.framework/Versions/A/AGL",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/AGL.framework/Versions/A/AGL",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/Metal.framework/Versions/A/Metal",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/Metal.framework/Versions/A/Metal",
+          "valid": true
+        },
+        {
+          "value": "@rpath/QtCore.framework/Versions/A/QtCore",
+          "kind": "bundled",
+          "resolved": "${PROJECT_ROOT}/dist/release/轻看.app/Contents/Frameworks/QtCore.framework/Versions/A/QtCore",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers",
+          "valid": true
+        },
+        {
+          "value": "/usr/lib/libc++.1.dylib",
+          "kind": "system",
+          "resolved": "/usr/lib/libc++.1.dylib",
+          "valid": true
+        },
+        {
+          "value": "/usr/lib/libSystem.B.dylib",
+          "kind": "system",
+          "resolved": "/usr/lib/libSystem.B.dylib",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "file": "Contents/PlugIns/imageformats/libqgif.dylib",
+      "architectures": [
+        "arm64"
+      ],
+      "sha256": "0a5bb26d4976f8a94a7e841b1f8b7dbc5cbdbdf66c08ec28946302730207d57a",
+      "rpaths": [
+        {
+          "value": "@loader_path/../../lib",
+          "resolved": "${PROJECT_ROOT}/dist/release/轻看.app/Contents/lib",
+          "exists": false,
+          "insideBundle": true
+        }
+      ],
+      "dependencies": [
+        {
+          "value": "@rpath/QtGui.framework/Versions/A/QtGui",
+          "kind": "bundled",
+          "resolved": "${PROJECT_ROOT}/dist/release/轻看.app/Contents/Frameworks/QtGui.framework/Versions/A/QtGui",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/AGL.framework/Versions/A/AGL",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/AGL.framework/Versions/A/AGL",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/Metal.framework/Versions/A/Metal",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/Metal.framework/Versions/A/Metal",
+          "valid": true
+        },
+        {
+          "value": "@rpath/QtCore.framework/Versions/A/QtCore",
+          "kind": "bundled",
+          "resolved": "${PROJECT_ROOT}/dist/release/轻看.app/Contents/Frameworks/QtCore.framework/Versions/A/QtCore",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers",
+          "valid": true
+        },
+        {
+          "value": "/usr/lib/libc++.1.dylib",
+          "kind": "system",
+          "resolved": "/usr/lib/libc++.1.dylib",
+          "valid": true
+        },
+        {
+          "value": "/usr/lib/libSystem.B.dylib",
+          "kind": "system",
+          "resolved": "/usr/lib/libSystem.B.dylib",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "file": "Contents/PlugIns/imageformats/libqicns.dylib",
+      "architectures": [
+        "arm64"
+      ],
+      "sha256": "0777596374c8856ec5bdc2204ca0bbb96ff0b23e1798de503d12d200962f82df",
+      "rpaths": [
+        {
+          "value": "@loader_path/../../lib",
+          "resolved": "${PROJECT_ROOT}/dist/release/轻看.app/Contents/lib",
+          "exists": false,
+          "insideBundle": true
+        }
+      ],
+      "dependencies": [
+        {
+          "value": "@rpath/QtGui.framework/Versions/A/QtGui",
+          "kind": "bundled",
+          "resolved": "${PROJECT_ROOT}/dist/release/轻看.app/Contents/Frameworks/QtGui.framework/Versions/A/QtGui",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/AGL.framework/Versions/A/AGL",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/AGL.framework/Versions/A/AGL",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/Metal.framework/Versions/A/Metal",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/Metal.framework/Versions/A/Metal",
+          "valid": true
+        },
+        {
+          "value": "@rpath/QtCore.framework/Versions/A/QtCore",
+          "kind": "bundled",
+          "resolved": "${PROJECT_ROOT}/dist/release/轻看.app/Contents/Frameworks/QtCore.framework/Versions/A/QtCore",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers",
+          "valid": true
+        },
+        {
+          "value": "/usr/lib/libc++.1.dylib",
+          "kind": "system",
+          "resolved": "/usr/lib/libc++.1.dylib",
+          "valid": true
+        },
+        {
+          "value": "/usr/lib/libSystem.B.dylib",
+          "kind": "system",
+          "resolved": "/usr/lib/libSystem.B.dylib",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "file": "Contents/PlugIns/imageformats/libqico.dylib",
+      "architectures": [
+        "arm64"
+      ],
+      "sha256": "0416839c6be74e5e000137bee1d9323be1081b04c33876217d1f8d1dfff6d4db",
+      "rpaths": [
+        {
+          "value": "@loader_path/../../lib",
+          "resolved": "${PROJECT_ROOT}/dist/release/轻看.app/Contents/lib",
+          "exists": false,
+          "insideBundle": true
+        }
+      ],
+      "dependencies": [
+        {
+          "value": "@rpath/QtGui.framework/Versions/A/QtGui",
+          "kind": "bundled",
+          "resolved": "${PROJECT_ROOT}/dist/release/轻看.app/Contents/Frameworks/QtGui.framework/Versions/A/QtGui",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/AGL.framework/Versions/A/AGL",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/AGL.framework/Versions/A/AGL",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/Metal.framework/Versions/A/Metal",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/Metal.framework/Versions/A/Metal",
+          "valid": true
+        },
+        {
+          "value": "@rpath/QtCore.framework/Versions/A/QtCore",
+          "kind": "bundled",
+          "resolved": "${PROJECT_ROOT}/dist/release/轻看.app/Contents/Frameworks/QtCore.framework/Versions/A/QtCore",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers",
+          "valid": true
+        },
+        {
+          "value": "/usr/lib/libc++.1.dylib",
+          "kind": "system",
+          "resolved": "/usr/lib/libc++.1.dylib",
+          "valid": true
+        },
+        {
+          "value": "/usr/lib/libSystem.B.dylib",
+          "kind": "system",
+          "resolved": "/usr/lib/libSystem.B.dylib",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "file": "Contents/PlugIns/imageformats/libqjpeg.dylib",
+      "architectures": [
+        "arm64"
+      ],
+      "sha256": "79d4aa40b873888cc252ec53bf410e1b81cfecb0631f670e82f7df318d60824e",
+      "rpaths": [
+        {
+          "value": "@loader_path/../../lib",
+          "resolved": "${PROJECT_ROOT}/dist/release/轻看.app/Contents/lib",
+          "exists": false,
+          "insideBundle": true
+        }
+      ],
+      "dependencies": [
+        {
+          "value": "@rpath/QtGui.framework/Versions/A/QtGui",
+          "kind": "bundled",
+          "resolved": "${PROJECT_ROOT}/dist/release/轻看.app/Contents/Frameworks/QtGui.framework/Versions/A/QtGui",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/AGL.framework/Versions/A/AGL",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/AGL.framework/Versions/A/AGL",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/Metal.framework/Versions/A/Metal",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/Metal.framework/Versions/A/Metal",
+          "valid": true
+        },
+        {
+          "value": "@rpath/QtCore.framework/Versions/A/QtCore",
+          "kind": "bundled",
+          "resolved": "${PROJECT_ROOT}/dist/release/轻看.app/Contents/Frameworks/QtCore.framework/Versions/A/QtCore",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers",
+          "valid": true
+        },
+        {
+          "value": "/usr/lib/libc++.1.dylib",
+          "kind": "system",
+          "resolved": "/usr/lib/libc++.1.dylib",
+          "valid": true
+        },
+        {
+          "value": "/usr/lib/libSystem.B.dylib",
+          "kind": "system",
+          "resolved": "/usr/lib/libSystem.B.dylib",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "file": "Contents/PlugIns/imageformats/libqmacheif.dylib",
+      "architectures": [
+        "arm64"
+      ],
+      "sha256": "18f42cdc6748273ccdbe0867035469915954ff71c47a9def8e60e29138bd9cca",
+      "rpaths": [
+        {
+          "value": "@loader_path/../../lib",
+          "resolved": "${PROJECT_ROOT}/dist/release/轻看.app/Contents/lib",
+          "exists": false,
+          "insideBundle": true
+        }
+      ],
+      "dependencies": [
+        {
+          "value": "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO",
+          "valid": true
+        },
+        {
+          "value": "@rpath/QtGui.framework/Versions/A/QtGui",
+          "kind": "bundled",
+          "resolved": "${PROJECT_ROOT}/dist/release/轻看.app/Contents/Frameworks/QtGui.framework/Versions/A/QtGui",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/AGL.framework/Versions/A/AGL",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/AGL.framework/Versions/A/AGL",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/Metal.framework/Versions/A/Metal",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/Metal.framework/Versions/A/Metal",
+          "valid": true
+        },
+        {
+          "value": "@rpath/QtCore.framework/Versions/A/QtCore",
+          "kind": "bundled",
+          "resolved": "${PROJECT_ROOT}/dist/release/轻看.app/Contents/Frameworks/QtCore.framework/Versions/A/QtCore",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers",
+          "valid": true
+        },
+        {
+          "value": "/usr/lib/libc++.1.dylib",
+          "kind": "system",
+          "resolved": "/usr/lib/libc++.1.dylib",
+          "valid": true
+        },
+        {
+          "value": "/usr/lib/libSystem.B.dylib",
+          "kind": "system",
+          "resolved": "/usr/lib/libSystem.B.dylib",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "file": "Contents/PlugIns/imageformats/libqmacjp2.dylib",
+      "architectures": [
+        "arm64"
+      ],
+      "sha256": "4a327419fca294ec233db0a88dbd54da60c715960011cfef60b642f5f873785c",
+      "rpaths": [
+        {
+          "value": "@loader_path/../../lib",
+          "resolved": "${PROJECT_ROOT}/dist/release/轻看.app/Contents/lib",
+          "exists": false,
+          "insideBundle": true
+        }
+      ],
+      "dependencies": [
+        {
+          "value": "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO",
+          "valid": true
+        },
+        {
+          "value": "@rpath/QtGui.framework/Versions/A/QtGui",
+          "kind": "bundled",
+          "resolved": "${PROJECT_ROOT}/dist/release/轻看.app/Contents/Frameworks/QtGui.framework/Versions/A/QtGui",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/AGL.framework/Versions/A/AGL",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/AGL.framework/Versions/A/AGL",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/Metal.framework/Versions/A/Metal",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/Metal.framework/Versions/A/Metal",
+          "valid": true
+        },
+        {
+          "value": "@rpath/QtCore.framework/Versions/A/QtCore",
+          "kind": "bundled",
+          "resolved": "${PROJECT_ROOT}/dist/release/轻看.app/Contents/Frameworks/QtCore.framework/Versions/A/QtCore",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers",
+          "valid": true
+        },
+        {
+          "value": "/usr/lib/libc++.1.dylib",
+          "kind": "system",
+          "resolved": "/usr/lib/libc++.1.dylib",
+          "valid": true
+        },
+        {
+          "value": "/usr/lib/libSystem.B.dylib",
+          "kind": "system",
+          "resolved": "/usr/lib/libSystem.B.dylib",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "file": "Contents/PlugIns/imageformats/libqsvg.dylib",
+      "architectures": [
+        "arm64"
+      ],
+      "sha256": "d07fc06eaa345be14db0ecc101a190ff3de82eb8ce83dcb89422f9ebacaf0e44",
+      "rpaths": [
+        {
+          "value": "@loader_path/../../lib",
+          "resolved": "${PROJECT_ROOT}/dist/release/轻看.app/Contents/lib",
+          "exists": false,
+          "insideBundle": true
+        }
+      ],
+      "dependencies": [
+        {
+          "value": "@rpath/QtSvg.framework/Versions/A/QtSvg",
+          "kind": "bundled",
+          "resolved": "${PROJECT_ROOT}/dist/release/轻看.app/Contents/Frameworks/QtSvg.framework/Versions/A/QtSvg",
+          "valid": true
+        },
+        {
+          "value": "@rpath/QtGui.framework/Versions/A/QtGui",
+          "kind": "bundled",
+          "resolved": "${PROJECT_ROOT}/dist/release/轻看.app/Contents/Frameworks/QtGui.framework/Versions/A/QtGui",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/AGL.framework/Versions/A/AGL",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/AGL.framework/Versions/A/AGL",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/Metal.framework/Versions/A/Metal",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/Metal.framework/Versions/A/Metal",
+          "valid": true
+        },
+        {
+          "value": "@rpath/QtCore.framework/Versions/A/QtCore",
+          "kind": "bundled",
+          "resolved": "${PROJECT_ROOT}/dist/release/轻看.app/Contents/Frameworks/QtCore.framework/Versions/A/QtCore",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers",
+          "valid": true
+        },
+        {
+          "value": "/usr/lib/libc++.1.dylib",
+          "kind": "system",
+          "resolved": "/usr/lib/libc++.1.dylib",
+          "valid": true
+        },
+        {
+          "value": "/usr/lib/libSystem.B.dylib",
+          "kind": "system",
+          "resolved": "/usr/lib/libSystem.B.dylib",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "file": "Contents/PlugIns/imageformats/libqtga.dylib",
+      "architectures": [
+        "arm64"
+      ],
+      "sha256": "0fe6ff42c482bf28c31c8f4e66a0a6561fa6b23102d675d97f791f51180ddae6",
+      "rpaths": [
+        {
+          "value": "@loader_path/../../lib",
+          "resolved": "${PROJECT_ROOT}/dist/release/轻看.app/Contents/lib",
+          "exists": false,
+          "insideBundle": true
+        }
+      ],
+      "dependencies": [
+        {
+          "value": "@rpath/QtGui.framework/Versions/A/QtGui",
+          "kind": "bundled",
+          "resolved": "${PROJECT_ROOT}/dist/release/轻看.app/Contents/Frameworks/QtGui.framework/Versions/A/QtGui",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/AGL.framework/Versions/A/AGL",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/AGL.framework/Versions/A/AGL",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/Metal.framework/Versions/A/Metal",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/Metal.framework/Versions/A/Metal",
+          "valid": true
+        },
+        {
+          "value": "@rpath/QtCore.framework/Versions/A/QtCore",
+          "kind": "bundled",
+          "resolved": "${PROJECT_ROOT}/dist/release/轻看.app/Contents/Frameworks/QtCore.framework/Versions/A/QtCore",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers",
+          "valid": true
+        },
+        {
+          "value": "/usr/lib/libc++.1.dylib",
+          "kind": "system",
+          "resolved": "/usr/lib/libc++.1.dylib",
+          "valid": true
+        },
+        {
+          "value": "/usr/lib/libSystem.B.dylib",
+          "kind": "system",
+          "resolved": "/usr/lib/libSystem.B.dylib",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "file": "Contents/PlugIns/imageformats/libqtiff.dylib",
+      "architectures": [
+        "arm64"
+      ],
+      "sha256": "2559666bc8e80b7c227fb0194dd13798a755fbc2ead9d721ab67ca628fb41d55",
+      "rpaths": [
+        {
+          "value": "@loader_path/../../lib",
+          "resolved": "${PROJECT_ROOT}/dist/release/轻看.app/Contents/lib",
+          "exists": false,
+          "insideBundle": true
+        }
+      ],
+      "dependencies": [
+        {
+          "value": "@rpath/QtGui.framework/Versions/A/QtGui",
+          "kind": "bundled",
+          "resolved": "${PROJECT_ROOT}/dist/release/轻看.app/Contents/Frameworks/QtGui.framework/Versions/A/QtGui",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/AGL.framework/Versions/A/AGL",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/AGL.framework/Versions/A/AGL",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/Metal.framework/Versions/A/Metal",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/Metal.framework/Versions/A/Metal",
+          "valid": true
+        },
+        {
+          "value": "@rpath/QtCore.framework/Versions/A/QtCore",
+          "kind": "bundled",
+          "resolved": "${PROJECT_ROOT}/dist/release/轻看.app/Contents/Frameworks/QtCore.framework/Versions/A/QtCore",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers",
+          "valid": true
+        },
+        {
+          "value": "/usr/lib/libz.1.dylib",
+          "kind": "system",
+          "resolved": "/usr/lib/libz.1.dylib",
+          "valid": true
+        },
+        {
+          "value": "/usr/lib/libc++.1.dylib",
+          "kind": "system",
+          "resolved": "/usr/lib/libc++.1.dylib",
+          "valid": true
+        },
+        {
+          "value": "/usr/lib/libSystem.B.dylib",
+          "kind": "system",
+          "resolved": "/usr/lib/libSystem.B.dylib",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "file": "Contents/PlugIns/imageformats/libqwbmp.dylib",
+      "architectures": [
+        "arm64"
+      ],
+      "sha256": "9e55ff6dd7a8ed628852ae57114bfe9aff357192a7a603608527714f0bc781d3",
+      "rpaths": [
+        {
+          "value": "@loader_path/../../lib",
+          "resolved": "${PROJECT_ROOT}/dist/release/轻看.app/Contents/lib",
+          "exists": false,
+          "insideBundle": true
+        }
+      ],
+      "dependencies": [
+        {
+          "value": "@rpath/QtGui.framework/Versions/A/QtGui",
+          "kind": "bundled",
+          "resolved": "${PROJECT_ROOT}/dist/release/轻看.app/Contents/Frameworks/QtGui.framework/Versions/A/QtGui",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/AGL.framework/Versions/A/AGL",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/AGL.framework/Versions/A/AGL",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/Metal.framework/Versions/A/Metal",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/Metal.framework/Versions/A/Metal",
+          "valid": true
+        },
+        {
+          "value": "@rpath/QtCore.framework/Versions/A/QtCore",
+          "kind": "bundled",
+          "resolved": "${PROJECT_ROOT}/dist/release/轻看.app/Contents/Frameworks/QtCore.framework/Versions/A/QtCore",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers",
+          "valid": true
+        },
+        {
+          "value": "/usr/lib/libc++.1.dylib",
+          "kind": "system",
+          "resolved": "/usr/lib/libc++.1.dylib",
+          "valid": true
+        },
+        {
+          "value": "/usr/lib/libSystem.B.dylib",
+          "kind": "system",
+          "resolved": "/usr/lib/libSystem.B.dylib",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "file": "Contents/PlugIns/imageformats/libqwebp.dylib",
+      "architectures": [
+        "arm64"
+      ],
+      "sha256": "585c3381c078de8651942700c56405e8d4e38cdcfd280f528466aa3a5e90d891",
+      "rpaths": [
+        {
+          "value": "@loader_path/../../lib",
+          "resolved": "${PROJECT_ROOT}/dist/release/轻看.app/Contents/lib",
+          "exists": false,
+          "insideBundle": true
+        }
+      ],
+      "dependencies": [
+        {
+          "value": "@rpath/QtGui.framework/Versions/A/QtGui",
+          "kind": "bundled",
+          "resolved": "${PROJECT_ROOT}/dist/release/轻看.app/Contents/Frameworks/QtGui.framework/Versions/A/QtGui",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/AGL.framework/Versions/A/AGL",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/AGL.framework/Versions/A/AGL",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/Metal.framework/Versions/A/Metal",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/Metal.framework/Versions/A/Metal",
+          "valid": true
+        },
+        {
+          "value": "@rpath/QtCore.framework/Versions/A/QtCore",
+          "kind": "bundled",
+          "resolved": "${PROJECT_ROOT}/dist/release/轻看.app/Contents/Frameworks/QtCore.framework/Versions/A/QtCore",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers",
+          "valid": true
+        },
+        {
+          "value": "/usr/lib/libc++.1.dylib",
+          "kind": "system",
+          "resolved": "/usr/lib/libc++.1.dylib",
+          "valid": true
+        },
+        {
+          "value": "/usr/lib/libSystem.B.dylib",
+          "kind": "system",
+          "resolved": "/usr/lib/libSystem.B.dylib",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "file": "Contents/PlugIns/platforms/libqcocoa.dylib",
+      "architectures": [
+        "arm64"
+      ],
+      "sha256": "84a16c2b237af89ad0dfb9e6671077bf5951f615609caf3077cceb610c3df291",
+      "rpaths": [
+        {
+          "value": "@loader_path/../../lib",
+          "resolved": "${PROJECT_ROOT}/dist/release/轻看.app/Contents/lib",
+          "exists": false,
+          "insideBundle": true
+        }
+      ],
+      "dependencies": [
+        {
+          "value": "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/Carbon.framework/Versions/A/Carbon",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/Carbon.framework/Versions/A/Carbon",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/CoreVideo.framework/Versions/A/CoreVideo",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/CoreVideo.framework/Versions/A/CoreVideo",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/IOSurface.framework/Versions/A/IOSurface",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/IOSurface.framework/Versions/A/IOSurface",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/Metal.framework/Versions/A/Metal",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/Metal.framework/Versions/A/Metal",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers",
+          "valid": true
+        },
+        {
+          "value": "@rpath/QtGui.framework/Versions/A/QtGui",
+          "kind": "bundled",
+          "resolved": "${PROJECT_ROOT}/dist/release/轻看.app/Contents/Frameworks/QtGui.framework/Versions/A/QtGui",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/AGL.framework/Versions/A/AGL",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/AGL.framework/Versions/A/AGL",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO",
+          "valid": true
+        },
+        {
+          "value": "@rpath/QtCore.framework/Versions/A/QtCore",
+          "kind": "bundled",
+          "resolved": "${PROJECT_ROOT}/dist/release/轻看.app/Contents/Frameworks/QtCore.framework/Versions/A/QtCore",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration",
+          "valid": true
+        },
+        {
+          "value": "/usr/lib/libc++.1.dylib",
+          "kind": "system",
+          "resolved": "/usr/lib/libc++.1.dylib",
+          "valid": true
+        },
+        {
+          "value": "/usr/lib/libSystem.B.dylib",
+          "kind": "system",
+          "resolved": "/usr/lib/libSystem.B.dylib",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/ColorSync.framework/Versions/A/ColorSync",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/ColorSync.framework/Versions/A/ColorSync",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/CoreText.framework/Versions/A/CoreText",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/CoreText.framework/Versions/A/CoreText",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "valid": true
+        },
+        {
+          "value": "/usr/lib/libobjc.A.dylib",
+          "kind": "system",
+          "resolved": "/usr/lib/libobjc.A.dylib",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "file": "Contents/PlugIns/styles/libqmacstyle.dylib",
+      "architectures": [
+        "arm64"
+      ],
+      "sha256": "8093115cbebc8dc5273171bab56fea915153a2f2a09052498b51a83f3bc49023",
+      "rpaths": [
+        {
+          "value": "@loader_path/../../lib",
+          "resolved": "${PROJECT_ROOT}/dist/release/轻看.app/Contents/lib",
+          "exists": false,
+          "insideBundle": true
+        }
+      ],
+      "dependencies": [
+        {
+          "value": "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+          "valid": true
+        },
+        {
+          "value": "@rpath/QtWidgets.framework/Versions/A/QtWidgets",
+          "kind": "bundled",
+          "resolved": "${PROJECT_ROOT}/dist/release/轻看.app/Contents/Frameworks/QtWidgets.framework/Versions/A/QtWidgets",
+          "valid": true
+        },
+        {
+          "value": "@rpath/QtGui.framework/Versions/A/QtGui",
+          "kind": "bundled",
+          "resolved": "${PROJECT_ROOT}/dist/release/轻看.app/Contents/Frameworks/QtGui.framework/Versions/A/QtGui",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/AGL.framework/Versions/A/AGL",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/AGL.framework/Versions/A/AGL",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/Metal.framework/Versions/A/Metal",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/Metal.framework/Versions/A/Metal",
+          "valid": true
+        },
+        {
+          "value": "@rpath/QtCore.framework/Versions/A/QtCore",
+          "kind": "bundled",
+          "resolved": "${PROJECT_ROOT}/dist/release/轻看.app/Contents/Frameworks/QtCore.framework/Versions/A/QtCore",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers",
+          "valid": true
+        },
+        {
+          "value": "/usr/lib/libc++.1.dylib",
+          "kind": "system",
+          "resolved": "/usr/lib/libc++.1.dylib",
+          "valid": true
+        },
+        {
+          "value": "/usr/lib/libSystem.B.dylib",
+          "kind": "system",
+          "resolved": "/usr/lib/libSystem.B.dylib",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/CoreText.framework/Versions/A/CoreText",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/CoreText.framework/Versions/A/CoreText",
+          "valid": true
+        },
+        {
+          "value": "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "kind": "system",
+          "resolved": "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "valid": true
+        },
+        {
+          "value": "/usr/lib/libobjc.A.dylib",
+          "kind": "system",
+          "resolved": "/usr/lib/libobjc.A.dylib",
+          "valid": true
+        }
+      ]
+    }
+  ]
+}

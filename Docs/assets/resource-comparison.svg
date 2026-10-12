@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="418" viewBox="0 0 980 418" role="img" aria-labelledby="title desc">
+  <title id="title">仅高压缩邻图场景的内存对照</title>
+  <desc id="desc">仅打开小PNG，旁边有一张48MP高压缩PNG，等邻图后台任务结束。0.1.1约405MiB，0.1.2约40MiB。指标是physical footprint；结果不能代表普通图片浏览或整个应用的总体内存改善。</desc>
+  <rect x="1" y="1" width="978" height="416" rx="22" fill="#f7fafc" stroke="#dce6ec"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+    <text x="42" y="55" font-size="27" font-weight="650" fill="#173347">仅一个高压缩邻图场景</text>
+    <text x="42" y="89" font-size="16" fill="#425e70">只打开小 PNG；同目录有 48 MP 高压缩 PNG，等待邻图任务完成</text>
+    <text x="42" y="119" font-size="13" fill="#687e8a">physical footprint · MiB · 单次场景对照，数值为约值</text>
+    <g stroke="#dce6ec" stroke-width="1">
+      <path d="M210 144V289M340 144V289M470 144V289M600 144V289M730 144V289M860 144V289"/>
+    </g>
+    <text x="42" y="185" font-size="22" font-weight="600" fill="#3b5362">0.1.1</text>
+    <rect x="210" y="156" width="526.5" height="43" rx="8" fill="#d99b78"/>
+    <text x="754" y="186" font-size="25" font-weight="650" fill="#775443">≈ 405 MiB</text>
+    <text x="42" y="265" font-size="22" font-weight="600" fill="#1b685d">0.1.2</text>
+    <rect x="210" y="236" width="52" height="43" rx="8" fill="#43a997"/>
+    <text x="281" y="266" font-size="25" font-weight="650" fill="#1b685d">≈ 40 MiB</text>
+    <path d="M210 307H860" stroke="#a7b9c4"/>
+    <g font-size="13" fill="#718591" text-anchor="middle">
+      <text x="210" y="330">0</text><text x="340" y="330">100</text><text x="470" y="330">200</text><text x="600" y="330">300</text><text x="730" y="330">400</text><text x="860" y="330">500</text>
+    </g>
+    <text x="42" y="376" font-size="15" fill="#365564">不能代表普通 JPEG 浏览，也不是整个应用的总体内存降幅。</text>
+    <text x="42" y="398" font-size="12" fill="#718591">2026-10-12 本机采样 · 条件、原始数据与关闭后内存保留说明见 Docs/Verification-0.1.2.md</text>
+  </g>
+</svg>

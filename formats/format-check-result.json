@@ -1,0 +1,136 @@
+{
+  "publicationNote": "Public copy: machine-specific project, Qt SDK and user-cache paths have been standardised as ${PROJECT_ROOT}, ${QINGVIEW_QT_ROOT} and ${QINGVIEW_BUILD_ROOT}. Test results, counts, timestamps, system-library paths and hashes are unchanged.",
+  "checks": [
+    {
+      "error": "",
+      "format": "jpeg",
+      "height": 64,
+      "name": "decode sample.jpg",
+      "passed": true,
+      "width": 96
+    },
+    {
+      "error": "",
+      "format": "png",
+      "height": 64,
+      "name": "decode sample.png",
+      "passed": true,
+      "width": 96
+    },
+    {
+      "error": "",
+      "format": "webp",
+      "height": 64,
+      "name": "decode sample.webp",
+      "passed": true,
+      "width": 96
+    },
+    {
+      "error": "",
+      "format": "heic",
+      "height": 64,
+      "name": "decode sample.heic",
+      "passed": true,
+      "width": 96
+    },
+    {
+      "error": "",
+      "format": "png",
+      "height": 64,
+      "name": "decode transparent.png",
+      "passed": true,
+      "width": 96
+    },
+    {
+      "error": "",
+      "format": "png",
+      "height": 64,
+      "name": "decode 中文 测试 图片.png",
+      "passed": true,
+      "width": 96
+    },
+    {
+      "displayHeight": 96,
+      "displayWidth": 64,
+      "name": "EXIF orientation oriented.jpg",
+      "originalHeight": 64,
+      "originalWidth": 96,
+      "passed": true,
+      "quadrantsCorrect": true
+    },
+    {
+      "displayHeight": 96,
+      "displayWidth": 64,
+      "name": "EXIF orientation oriented.heic",
+      "originalHeight": 64,
+      "originalWidth": 96,
+      "passed": true,
+      "quadrantsCorrect": true
+    },
+    {
+      "name": "PNG alpha",
+      "passed": true
+    },
+    {
+      "name": "24 MP JPEG",
+      "passed": true
+    },
+    {
+      "error": "Unsupported image format",
+      "name": "invalid JPEG rejected",
+      "passed": true
+    },
+    {
+      "frameColors": [
+        "#ff0000",
+        "#00ff00",
+        "#0000ff"
+      ],
+      "imageCount": 3,
+      "name": "GIF frames",
+      "passed": true,
+      "supportsAnimation": true
+    },
+    {
+      "maximumChannelError": 0,
+      "name": "Display P3 HEIC to sRGB",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "qtVersion": "6.8.3",
+  "supportedFormats": [
+    "bmp",
+    "cur",
+    "gif",
+    "heic",
+    "heif",
+    "icns",
+    "ico",
+    "jfif",
+    "jp2",
+    "jpeg",
+    "jpg",
+    "pbm",
+    "pgm",
+    "png",
+    "ppm",
+    "svg",
+    "svgz",
+    "tga",
+    "tif",
+    "tiff",
+    "wbmp",
+    "webp",
+    "xbm",
+    "xpm"
+  ],
+  "testedAt": "2026-10-10T10:04:01+08:00",
+  "architecture": "arm64",
+  "scope": "Qt SDK plugins; final packaged QingView integration is verified separately",
+  "fixtureDirectory": "${PROJECT_ROOT}/tests/fixtures/formats",
+  "command": [
+    "${QINGVIEW_BUILD_ROOT}/format-check/build-probe/format_probe",
+    "${PROJECT_ROOT}/tests/fixtures/formats"
+  ]
+}

@@ -1,0 +1,76 @@
+QingView resource probe (opt-in, separate from the product)
+
+Public copy: machine-specific project, Qt SDK and user-cache paths have been standardised as ${PROJECT_ROOT}, ${QINGVIEW_QT_ROOT} and ${QINGVIEW_BUILD_ROOT}. Test results, counts, timestamps, system-library paths and hashes are unchanged.
+Generic /tmp command examples are portable temporary output locations, not machine identity.
+
+Build without opening any windows:
+  bash tests/run_resource.sh --build-only
+
+Run the normal workload on an unlocked macOS desktop:
+  QINGVIEW_RESOURCE_LABEL=current bash tests/run_resource.sh
+
+The probe links the real QVApplication/MainWindow and Qt image decoders.
+It starts inside QApplication::exec, samples task_info TASK_VM_INFO physical
+footprint/RSS and getrusage CPU every 100 ms, and observes real fileChanged
+signals for load latency. It creates temporary INI preferences and copies of
+the 6000x4000 JPEG fixture. It never warps the cursor or edits user pictures.
+Default phases cover empty/static idle, one 24 MP JPEG, three rounds through
+eight copied JPEGs, three windows, close/pool completion, an explicit cache-clear
+reference, and samples after the callback returns to the outer Cocoa loop.
+Window construction/show time excludes process/app construction: it is not
+cold-start timing. Sampled memory peaks can miss brief allocations. CPU includes
+the probe's sampler. OS/filesystem/application caches affect repeated loads.
+
+The two-file regression opens only a small PNG beside a 48 MP high-compression
+neighbor. Generate that neighbor outside the sampling process with a streaming
+encoder, then run:
+  python3 tests/generate_resource_stress.py --output /tmp/qingview-48mp.png
+  QINGVIEW_STRESS_PNG=/tmp/qingview-48mp.png QINGVIEW_RESOURCE_LABEL=stress \
+    bash tests/run_resource.sh --stress-only
+
+For a baseline, override QINGVIEW_RESOURCE_SOURCE with an archived source tree;
+use separate QINGVIEW_RESOURCE_STAGE and QINGVIEW_RESOURCE_BUILD directories.
+The harness always comes from this tests directory, keeping the workload shared
+between baseline and modified sources. Each JSON records the staged src digest.
+The 2026-10-12 primary comparison uses commit 8487f21 and the 0.1.2 source snapshot:
+  results/resource-baseline-mainloop-8487f21.json
+  results/resource-fixed-mainloop-0.1.2.json
+  results/resource-baseline-stress-8487f21.json
+  results/resource-fixed-stress-0.1.2.json
+  results/resource-comparison-0.1.2.json
+  results/resource-comparison-harness.cpp (exact shared primary harness snapshot)
+Earlier resource-baseline-8487f21/resource-fixed-0.1.2 JSON files are historical
+pre-main-loop checks, not the primary comparison.
+
+Closing diagnosis is optional and separate from latency/CPU comparisons:
+  QINGVIEW_RESOURCE_LABEL=closing bash tests/run_resource.sh \
+    --idle-ms 100 --closing-diagnostic
+After all windows/jobs/cache references and normal phases have ended, the probe
+prints CLOSING_DIAGNOSTIC_READY with PID and an acknowledgement path. Read that
+process using vmmap -summary PID / heap -s PID, then create the acknowledgement
+file; the diagnostic performs malloc_zone_pressure_relief and captures a final
+reference. It also continues automatically after 30 seconds. This pressure
+relief is diagnostic-only and is never invoked by product code.
+
+The 2026-10-12 macOS 27.0.1 closing diagnosis reported 866.8 MiB physical footprint,
+but vmmap classified 824.1 MiB resident as Malloc Large (empty), and heap reported
+only 17,641,888 bytes in live allocations, with no large image-sized live block.
+Returning to the outer event loop and ordinary malloc pressure relief did not
+reduce the footprint. The independent allocator helper (no Qt and no GUI)
+allocated/freed the same 96,000,000-byte buffer three times: free left footprint
+about 92.8 MiB, subsequent allocations reused the same address twice, and
+pressure relief returned 0. These observations identify allocator retention and
+reuse in this tested workload; they do not promise immediate OS reclamation or
+exhaustive bounds for every image, operating system or longer workload.
+
+Build/run that small standalone helper, without changing allocator environment:
+  clang -O2 tests/allocator_probe.c -o /tmp/qingview-allocator-probe
+  /tmp/qingview-allocator-probe
+
+Apple's official allocator implementation describes freed large blocks entering
+the deferred reclaim path and subsequent reuse when available:
+  https://github.com/apple-oss-distributions/libmalloc/blob/main/src/magazine_large.c#L619
+  https://github.com/apple-oss-distributions/libmalloc/blob/main/src/magazine_large.c#L851
+  https://github.com/apple-oss-distributions/libmalloc/blob/main/src/vm.c#L652
+The mechanism matches the local diagnosis; the public source is not asserted
+to be byte-for-byte identical to this machine's libSystem build.

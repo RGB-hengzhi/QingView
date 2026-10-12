@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">暮色山湖 · 轻看原创演示图</title>
+  <desc id="desc">暖金色落日照亮远山与湖面，前景是深蓝色松林。以纯矢量形状与渐变绘制，无外部图片或字体。</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#192d48"/><stop offset=".33" stop-color="#6b718c"/><stop offset=".66" stop-color="#d49896"/><stop offset="1" stop-color="#f7ceaa"/>
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop stop-color="#ffe9ae" stop-opacity=".45"/><stop offset=".52" stop-color="#ffc497" stop-opacity=".17"/><stop offset="1" stop-color="#ffc497" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fff0bd"/><stop offset="1" stop-color="#ffc38e"/></linearGradient>
+    <linearGradient id="far" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#8b7f9a"/><stop offset="1" stop-color="#778293"/></linearGradient>
+    <linearGradient id="middle" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#596f83"/><stop offset="1" stop-color="#415f70"/></linearGradient>
+    <linearGradient id="lake" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#a19aab"/><stop offset=".38" stop-color="#657e90"/><stop offset="1" stop-color="#29485d"/></linearGradient>
+    <linearGradient id="near" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#294d5b"/><stop offset="1" stop-color="#112b3a"/></linearGradient>
+    <symbol id="pine" viewBox="0 0 100 230">
+      <path d="M46 230V157H54V230Z" fill="#112b35"/>
+      <path d="M50 0 24 61 38 58 14 104 32 99 5 151 27 143 0 193 100 193 74 144 95 152 69 100 86 106 62 60 76 64Z" fill="currentColor"/>
+    </symbol>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#sky)"/>
+  <circle cx="1110" cy="324" r="275" fill="url(#halo)"/>
+  <circle cx="1110" cy="324" r="111" fill="url(#sun)"/>
+  <g fill="#ffe5c4" opacity=".35"><circle cx="235" cy="130" r="2"/><circle cx="528" cy="87" r="1.8"/><circle cx="744" cy="158" r="1.3"/><circle cx="1438" cy="123" r="1.5"/></g>
+  <g fill="none" stroke="#524f69" stroke-width="3.5" stroke-linecap="round" opacity=".64">
+    <path d="M486 292Q498 281 510 292Q522 281 534 292"/><path d="M553 323Q562 315 571 323Q580 315 589 323"/><path d="M1381 259Q1389 252 1397 259Q1405 252 1413 259"/>
+  </g>
+  <path d="M-30 595 100 524 242 564 388 426 535 523 649 460 796 533 902 424 1066 562 1212 439 1345 530 1482 451 1630 525V740H-30Z" fill="url(#far)" opacity=".68"/>
+  <path d="M-30 636 122 558 205 584 358 476 521 584 612 541 746 616 894 540 1019 604 1134 551 1280 616 1410 509 1630 629V749H-30Z" fill="url(#middle)"/>
+  <g fill="none" stroke="#d7a9ac" stroke-width="2" opacity=".3"><path d="M355 479 391 524 411 512 464 567"/><path d="M1410 512 1374 557 1356 548 1297 604"/><path d="M899 426 922 479 944 485 985 538"/></g>
+  <path d="M0 663Q185 615 365 672T712 661Q835 642 1003 666T1300 658Q1458 624 1600 666V729H0Z" fill="#3e6071"/>
+  <rect y="688" width="1600" height="312" fill="url(#lake)"/>
+  <path d="M0 688Q243 665 513 691T1002 689Q1290 668 1600 691" fill="none" stroke="#c2afbb" stroke-width="3" opacity=".55"/>
+  <g fill="#f9d0a1">
+    <path d="M1013 701Q1119 695 1226 701L1220 706Q1115 702 1022 708Z" opacity=".8"/>
+    <path d="M984 721Q1125 714 1259 722L1244 727Q1114 722 1006 729Z" opacity=".66"/>
+    <path d="M1050 743Q1155 738 1244 745L1241 751Q1145 745 1057 751Z" opacity=".66"/>
+    <path d="M947 768Q1106 759 1302 768L1279 775Q1117 768 982 779Z" opacity=".47"/>
+    <path d="M1023 798Q1130 791 1234 799L1224 805Q1124 800 1046 807Z" opacity=".42"/>
+    <path d="M918 834Q1116 824 1349 835L1319 842Q1118 834 962 846Z" opacity=".3"/>
+    <path d="M1032 871Q1141 865 1265 873L1241 880Q1135 874 1063 881Z" opacity=".26"/>
+  </g>
+  <g fill="none" stroke="#c1becb" stroke-linecap="round" opacity=".24">
+    <path d="M164 728H476M596 714H749M80 762H283M368 785H741M667 745H890" stroke-width="2"/>
+    <path d="M334 832H588M697 818H868M67 887H368M536 923H829M1390 783H1550M1370 909H1521" stroke-width="3"/>
+  </g>
+  <path d="M0 706Q87 728 162 771Q269 824 386 846Q522 865 688 949L750 1000H0Z" fill="url(#near)"/>
+  <path d="M1600 816Q1462 785 1344 830Q1238 875 1119 880Q1004 884 934 949L887 1000H1600Z" fill="#203f4f"/>
+  <path d="M0 894Q171 842 334 910Q477 958 641 952T980 976Q1106 940 1254 928T1600 956V1000H0Z" fill="#102b39"/>
+  <g color="#193b47"><use xlink:href="#pine" x="-23" y="564" width="167" height="384"/><use xlink:href="#pine" x="109" y="656" width="126" height="290"/><use xlink:href="#pine" x="227" y="722" width="91" height="209"/><use xlink:href="#pine" x="1445" y="639" width="128" height="295"/><use xlink:href="#pine" x="1543" y="574" width="166" height="382"/></g>
+  <g color="#102b37"><use xlink:href="#pine" x="-71" y="459" width="204" height="470"/><use xlink:href="#pine" x="80" y="613" width="150" height="345"/><use xlink:href="#pine" x="284" y="800" width="75" height="173"/><use xlink:href="#pine" x="1357" y="746" width="98" height="225"/><use xlink:href="#pine" x="1513" y="567" width="183" height="421"/></g>
+  <path d="M0 971Q329 939 580 980T1088 978Q1399 950 1600 989V1000H0Z" fill="#0c2532"/>
+</svg>
